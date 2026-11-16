@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "grad-mp",
+  "compatibility_date": "2026-10-13",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    {
+      "pattern": "grad-mp.goufix.dev",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": "public"
+  }
+}

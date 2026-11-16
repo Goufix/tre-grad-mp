@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Wrangler local state and build output
+.wrangler/
+dist/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
+# Browser automation artifacts and test output
+.playwright-mcp/
+playwright-report/
+test-results/
+coverage/
+
+# Logs
+*.log
+
+# Editor and operating system files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
